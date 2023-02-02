@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    body{
+        font-family: 'Martel', sans-serif;
+    }
+
+    .navbar-scroll{
+        @apply fixed z-50 bg-white bg-opacity-70 shadow-lg;
+        backdrop-filter: blur(3px);
+    }
+
+    .hamburger-costum{
+        @apply w-[30px] h-[2px] my-2 block bg-black;
+    }
+
+    .hamburger-click > span:nth-child(1) {
+        @apply -rotate-45
+    }
+
+    .hamburger-click > span:nth-child(2) {
+        @apply scale-0
+    }
+
+    .hamburger-click > span:nth-child(3) {
+        @apply rotate-45
+    }
+
+    .text-thumbnail{
+        @apply px-4 py-2 bg-slate-500 bg-opacity-30 inline-block text-white rounded-full;
+        backdrop-filter: blur(5px);
+    }
