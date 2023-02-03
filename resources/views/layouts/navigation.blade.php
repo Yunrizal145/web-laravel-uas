@@ -18,7 +18,7 @@
                     <x-nav-link>
                         {{ __('About') }}
                     </x-nav-link>
-                    <x-nav-link>
+                    <x-nav-link :href="url('home/posts')" :active="request()->url('home/posts')">
                         {{ __('Service') }}
                     </x-nav-link>
                     <x-nav-link>

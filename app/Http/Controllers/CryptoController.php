@@ -16,7 +16,7 @@ class CryptoController extends Controller
     {
         $cryptos = Crypto::all();
 
-        return view('admin.crypto.index', compact('cryptos'));
+        return view('admin.home', compact('cryptos'));
     }
 
     /**

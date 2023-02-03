@@ -1,3 +1,3 @@
-<x-admin-layout> 
+<x-app-layout> 
     @include('admin.layouts.table')
-</x-admin-layout>
+</x-app-layout>

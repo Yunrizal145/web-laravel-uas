@@ -176,6 +176,11 @@
     </div>
     <!-- Content 3 End -->
 
+    {{-- Content CRUD Start --}}
+    {{-- <section class="w-full mx-auto ">
+        @include('section')
+    </section> --}}
+    {{-- Content CRUD End --}}
 
     <!-- Content 4 Start -->
     <section class="w-full mx-auto mt-[200px] lg:mt-[250px]">

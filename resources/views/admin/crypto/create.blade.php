@@ -1,4 +1,4 @@
-<x-admin-layout> 
+<x-app-layout> 
 
     <div class="py-12">
         @if (session('error'))
@@ -32,4 +32,4 @@
         </div>
     </div>
 
-</x-admin-layout>
+</x-app-layout>
